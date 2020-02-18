@@ -1,9 +1,11 @@
 def stop_words_remover(df):
 
+    #Initializing new data frame and result list, which will contain list of words which are not stop words
     new_df = pd.DataFrame([])
     res = []
     counter = 0
     
+    #The stop words inside a dictionary
     stop_words_dict = {'stopwords':['where', 'done', 'if', 'before', 'll', 'very', 'keep', 'something', 'nothing', 
     'thereupon', 'may', 'why', '’s', 'therefore', 'you', 'with', 'towards', 'make', 'really', 'few', 'former', 
     'during', 'mine', 'do', 'would', 'of', 'off', 'six', 'yourself', 'becoming', 'through', 'seeming', 'hence', 'us', 
@@ -29,15 +31,18 @@ def stop_words_remover(df):
     'n‘t', 'him', 'could', 'front', 'within', '‘re', 'back', 'such', 'already', 'several', 'side', 'whence', 'me', 'same', 'were', 
     'it', 'every', 'third', 'together']}
     
+    #Looping through every row in the twitter_df and extracting the words which do not match any of the stopwords
     for row in df['Tweets']:
         no_stops = [word for word in row.lower().split() if word not in stop_words_dict['stopwords']]
         res.append(no_stops)
         
+    #then after this we remove all the urls
     for row in res:
         no_urls = [word for word in row if word[:4] != 'http' or not (word[:5] != 'https')]
         res[counter] = no_urls
         counter+=1
         
+    #Now we build the data frame with all necessary columns and entries, using the res list and some of the actual values from twitter_df
     new_df['Tweets'] = df['Tweets']
     new_df['Date'] = df['Date']
     new_df['Without Stop Words'] = res
