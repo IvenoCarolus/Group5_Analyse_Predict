@@ -39,4 +39,5 @@ Removes english stop words from a tweet.
 <b>Twitter data: </b> 'https://raw.githubusercontent.com/Explore-AI/Public-Data/master/Data/twitter_nov_2019.csv'
 
 ## Download:
-Just run the following command - `git clone --recursive https://github.com/IvenoCarolus/Group5_Analyse_Predict.git`
+If you would like to contribute to our repository contact bubblesortguru@gmail.com  <br/>
+`git clone --recursive https://github.com/IvenoCarolus/Group5_Analyse_Predict.git` 
