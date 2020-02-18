@@ -1,5 +1,5 @@
 ## Group5_Analyse_Predict
-![Heading](https://w3.accelya.com/hubfs/Blog_Images/Its-Time-for-Airlines-to-Take-Data-Science-and-Artificial-Intelligence-Seriously_Blog.gif)
+![Heading](https://www.afriforum.co.za/wp-content/uploads/2019/12/Eskom.jpg)
 
 # Python library containing seven functions that will be used to analyse ESKOM data:
 
