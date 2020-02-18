@@ -1,8 +1,7 @@
 def extract_municipality_hashtags(df):
-    """Extracts all municipality strings and all the hastags. Creates a new dataframe containing columns with those values as entries. Takes one dataframe as arg"""
-    
-    #Initializing the new data frame
-    new_df = pd.DataFrame([])
+    """Extracts all municipality strings and all the hashtags.
+    Creates a new dataframe containing columns with those values as entries. 
+    Takes one dataframe as arg"""
     
     #creating the dictionary with all @'s
     municipality_dict = { '@CityofCTAlerts' : 'Cape Town',
@@ -12,10 +11,11 @@ def extract_municipality_hashtags(df):
             '@centlecutility' : 'Mangaung',
             '@NMBmunicipality' : 'Nelson Mandela Bay',
             '@CityTshwane' : 'Tshwane'}
-
-    #creating a list to hold all the municipality strings and a flag variable to track check if key in row
-    mun_list = []
-    flag = 0
+   
+    new_df = pd.DataFrame([])                  #Initializing the new data frame.
+    mun_list = []                              #creating a list to hold all the municipality strings.
+    final_hash = []                            #creating empty list to hold all the extracted hashtags.
+    flag = 0                                   #creating a flag variable to track every key in the row. 
 
     #double for-loop that extracts the municipality strings from every row in the dataframe.
     for row in df['Tweets']:
@@ -28,15 +28,12 @@ def extract_municipality_hashtags(df):
         if not flag:
           mun_list.append(np.nan)
 
-    #Initializing a list that will contain all the extracted hashtags
-    final_hash = []
-
-    #for-loop looping through every row and extracting the hastags, appending them to final_hash list
+    #for-loop looping through every row and extracting the hastags, appending them to final_hash list.
     for row in df['Tweets']:
       final_hash.append([string for string in row.lower().split() if string[0][0] == '#'])
     final_hash = [np.nan if x == [] else x for x in final_hash]
     
-    #creating the data frame with all the columns, obviously using the list of municipality strings and the extracted hastags, we get our end product.
+    #creating the data frame with all the columns, using the list of municipality strings and the extracted hastags, we get our end product.
     new_df['Tweets'] = df['Tweets']
     new_df['Date'] = df['Date']
     new_df['municipality'] = mun_list
