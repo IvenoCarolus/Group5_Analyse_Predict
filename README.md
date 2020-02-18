@@ -3,7 +3,7 @@
 
 # Python library containing seven functions that will be used to analyse ESKOM data:
 
-* dictionary_of_metrics\n
+* dictionary_of_metrics <br/>
 Returns a dictionary with keys 'mean', 'median', 'std', 'var', 'min', and 'max', corresponding to the mean, median, standard deviation, variance, minimum and maximum of the input list, respectively.
 The standard deviation and variance values are unbiased.
 All values are rounded to 2 decimal places.
