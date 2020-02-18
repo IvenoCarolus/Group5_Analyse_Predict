@@ -27,6 +27,13 @@ Splits the sentences in a dataframe's column into a list of the separate words. 
 * <b> Stop_words_remover </b> <br/>
 Removes english stop words from a tweet.
 
+## How to install this package 
+
+## Links to data used 
+<b> EBP data: </b> 'https://raw.githubusercontent.com/Explore-AI/Public-Data/master/Data/electrification_by_province.csv' <br/>
+
+<b>Twitter data: </b> 'https://raw.githubusercontent.com/Explore-AI/Public-Data/master/Data/twitter_nov_2019.csv'
+
 ## List of contributors:
 * Iveno Carolus
 * Nicole Meinie
@@ -34,9 +41,4 @@ Removes english stop words from a tweet.
 * Noah KaeKae
 
 <b> If you would like to contribute to our repository contact bubblesortguru@gmail.com </b>
-
-## Links to data used 
-<b> EBP data: </b> 'https://raw.githubusercontent.com/Explore-AI/Public-Data/master/Data/electrification_by_province.csv' <br/>
-
-<b>Twitter data: </b> 'https://raw.githubusercontent.com/Explore-AI/Public-Data/master/Data/twitter_nov_2019.csv'
 
