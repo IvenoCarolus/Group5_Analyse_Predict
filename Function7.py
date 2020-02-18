@@ -1,6 +1,8 @@
 def stop_words_remover(df):
 
     new_df = pd.DataFrame([])
+    res = []
+    counter = 0
     
     stop_words_dict = {'stopwords':['where', 'done', 'if', 'before', 'll', 'very', 'keep', 'something', 'nothing', 
     'thereupon', 'may', 'why', '’s', 'therefore', 'you', 'with', 'towards', 'make', 'really', 'few', 'former', 
@@ -27,16 +29,15 @@ def stop_words_remover(df):
     'n‘t', 'him', 'could', 'front', 'within', '‘re', 'back', 'such', 'already', 'several', 'side', 'whence', 'me', 'same', 'were', 
     'it', 'every', 'third', 'together']}
     
-    res = []
-    counter = 0
-    
     for row in df['Tweets']:
         no_stops = [word for word in row.lower().split() if word not in stop_words_dict['stopwords']]
         res.append(no_stops)
+        
     for row in res:
         no_urls = [word for word in row if word[:4] != 'http' or not (word[:5] != 'https')]
         res[counter] = no_urls
         counter+=1
+        
     new_df['Tweets'] = df['Tweets']
     new_df['Date'] = df['Date']
     new_df['Without Stop Words'] = res
