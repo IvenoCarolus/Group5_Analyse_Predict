@@ -1,7 +1,7 @@
 
 # Function for data metrics
 def dictionary_of_metrics(items):
-# Use numpy package for five number summary ,and round off mean ,variance and standard deviation to 2 decimal places.
+# Use numpy package to generate five number summary ,and round off mean ,variance and standard deviation to 2 decimal places.
     return {'mean':round(np.mean(items),2),
             'median':np.median(items), 
             'var':round(np.var(items,ddof=1),2),
