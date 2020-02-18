@@ -1,4 +1,6 @@
 def extract_municipality_hashtags(df):
+    """Extracts all municipality strings and all the hastags. Creates a new dataframe containing columns with those values as entries. Takes one dataframe as arg"""
+    
     #Initializing the new data frame
     new_df = pd.DataFrame([])
     
