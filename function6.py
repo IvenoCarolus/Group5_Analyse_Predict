@@ -1,5 +1,6 @@
 def word_splitter(df):
-    """Function returns dataframe with Split Tweets column which contains a list of 'words' in every tweet, string must also be lowercase, one dataframe as arg"""
+    """This function returns dataframe with a 'Split Tweets' column containing a list of 'words' (all lowercase) from each tweet,
+    this function accepts one dataframe as an argument"""
     
-    df['Split Tweets'] = [string.lower().split() for string in df['Tweets']] #simply just splitting tweet string using str.split() and then assigning the entries to Tweets column
+    df['Split Tweets'] = [string.lower().split() for string in df['Tweets']] #Splitting the tweet string and assigning the entries to the Tweets column
     return df
