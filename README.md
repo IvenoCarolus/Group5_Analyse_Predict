@@ -17,3 +17,6 @@
 
 * stop_words_remover
 
+## Download
+
+Just run the following command - `git clone --recursive https://github.com/IvenoCarolus/Group5_Analyse_Predict.git`
