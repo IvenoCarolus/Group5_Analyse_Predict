@@ -33,10 +33,10 @@ Removes english stop words from a tweet.
 * Mandla Hadebe
 * Noah KaeKae
 
+<b> If you would like to contribute to our repository contact bubblesortguru@gmail.com </b>
+
 ## Links to data used 
 <b> EBP data: </b> 'https://raw.githubusercontent.com/Explore-AI/Public-Data/master/Data/electrification_by_province.csv' <br/>
 
 <b>Twitter data: </b> 'https://raw.githubusercontent.com/Explore-AI/Public-Data/master/Data/twitter_nov_2019.csv'
 
-
-<b> If you would like to contribute to our repository contact bubblesortguru@gmail.com </b>
