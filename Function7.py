@@ -1,5 +1,5 @@
 def stop_words_remover(df):
-
+    """This functions returns a dataframe containing a Without Stop Words column that contains all the words in the tweets that aren't stopwords, takes one dataframe as arg"""
     #Initializing new data frame and result list, which will contain list of words which are not stop words
     new_df = pd.DataFrame([])
     res = []
