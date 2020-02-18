@@ -3,17 +3,17 @@
 
 # Python library containing seven functions, helping us with analysis(someone should update this):
 
-* [dictionary_of_metrics]
+* dictionary_of_metrics
 
-* [five_num_summary]
+* five_num_summary
 
-* [date_parser]
+* date_parser
 
-* [extract_municipality_hashtags]
+* extract_municipality_hashtags
 
-* [number_of_tweets_per_day]
+* number_of_tweets_per_day
 
-* [word_splitter]
+* word_splitter
 
-* [stop_words_remover]
+* stop_words_remover
 
