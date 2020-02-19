@@ -1,4 +1,4 @@
-## Group5_Analyse_Predict
+# Group5_Analyse_Predict
 ![Heading](https://www.afriforum.co.za/wp-content/uploads/2019/12/Eskom.jpg)
 
 # Python library containing seven functions that will be used to analyse ESKOM data:
@@ -31,7 +31,7 @@ Removes english stop words from a tweet.
 <b>Remotely install from github:</b> <br/>
 ```pip install --upgrade git+https://github.com/IvenoCarolus/Group5_Analyse_Predict.git```<br/><br/>
 <b>Perform a local Installation after cloning or downloading the package: <b/> <br/>
-<b>Run the following command (Please make sure you direct yourself into /dist) <b/>:<br/>
+Run the following command (Please make sure you direct yourself into /dist):<br/>
 ```pip install predicttools-0.1.tar```
 
 ## Links to data used 
