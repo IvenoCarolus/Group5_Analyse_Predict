@@ -28,9 +28,9 @@ Splits the sentences in a dataframe's column into a list of the separate words. 
 Removes english stop words from a tweet.
 
 ## How to install this package
-Remote installation from github:<br/>
+To remotely installation from github:<br/>
 pip install --upgrade git+https://github.com/IvenoCarolus/Group5_Analyse_Predict.git<br/><br/>
-For local Installation after cloning or downloading package run this following command(Please make sure you direct yourself into /dist):<br/>
+To perform a local Installation after cloning or downloading package run this following command (Please make sure you direct yourself into /dist):<br/>
 pip install predicttools-0.1.tar
 ## Links to data used 
 <b> EBP data: </b> 'https://raw.githubusercontent.com/Explore-AI/Public-Data/master/Data/electrification_by_province.csv' <br/>
