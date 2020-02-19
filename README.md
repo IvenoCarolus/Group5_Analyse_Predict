@@ -22,7 +22,7 @@ Takes in a pandas dataframe and returns a modified dataframe that includes two n
  Calculates the number of tweets that were posted per day.
 
 * <b> Word_splitter </b> <br/>
-Splits the sentences in a dataframe's column into a list of the separate words. The created lists are placed in a column named 'Split Tweets' in the original dataframe
+Splits the sentences in a dataframe's column into a list of the separate words. The created lists are placed in a column named 'Split Tweets' in the original dataframe.
 
 * <b> Stop_words_remover </b> <br/>
 Removes english stop words from a tweet.
