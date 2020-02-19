@@ -29,7 +29,7 @@ Removes english stop words from a tweet.
 
 ## How to install this package
 To remotely installation from github:<br/>
-pip install --upgrade git+https://github.com/IvenoCarolus/Group5_Analyse_Predict.git<br/><br/>
+'''pip install --upgrade git+https://github.com/IvenoCarolus/Group5_Analyse_Predict.git'''<br/><br/>
 To perform a local Installation after cloning or downloading package run this following command (Please make sure you direct yourself into /dist):<br/>
 pip install predicttools-0.1.tar
 ## Links to data used 
