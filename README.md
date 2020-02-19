@@ -31,7 +31,7 @@ Removes english stop words from a tweet.
 Remote installation from github:<br/>
 pip install --upgrade git+https://github.com/IvenoCarolus/Group5_Analyse_Predict.git<br/><br/>
 Local Installation after cloning or downloading package:<br/>
-pip install dist<br/>
+pip install dist
 ## Links to data used 
 <b> EBP data: </b> 'https://raw.githubusercontent.com/Explore-AI/Public-Data/master/Data/electrification_by_province.csv' <br/>
 
