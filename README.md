@@ -27,8 +27,11 @@ Splits the sentences in a dataframe's column into a list of the separate words. 
 * <b> Stop_words_remover </b> <br/>
 Removes english stop words from a tweet.
 
-## How to install this package 
-
+## How to install this package
+Remote installation from github:
+pip install --upgrade git+https://github.com/IvenoCarolus/Group5_Analyse_Predict.git<br/><br/>
+Local Installation after cloning or downloading package:
+pip install dist<br/>
 ## Links to data used 
 <b> EBP data: </b> 'https://raw.githubusercontent.com/Explore-AI/Public-Data/master/Data/electrification_by_province.csv' <br/>
 
