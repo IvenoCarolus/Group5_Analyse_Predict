@@ -32,7 +32,7 @@ Removes english stop words from a tweet.
 ```pip install --upgrade git+https://github.com/IvenoCarolus/Group5_Analyse_Predict.git```<br/>
 
 <b>Perform a local Installation after cloning or downloading the package: <b/> <br/>
-Run the following command (Please make sure you direct yourself into /dist):<br/>
+Run the following command (Please make sure you direct yourself into /dist):
 ```pip install predicttools-0.1.tar```
 
 ## Links to data used 
